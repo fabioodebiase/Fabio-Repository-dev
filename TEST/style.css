@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:#fdb44b;
+}
+.container-header {
+    display:flex;
+    /* border: 5px solid red; */
+}
+
+.container-header .title{
+font-size: 50px;
+color:blue;
+margin:auto;
+
+}
+
+
+.container-header .navbar-list{
+    /* border: 5px solid green; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header .navbar-list ul {
+    /* border: 5px solid violet; */
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.container-header .navbar-list ul li {
+   color :blue;
+   list-style-type: none;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding:10px;
+    font-size: 20px;
+}
+
+.container-main{
+    display:column;
+    align-items: center;
+    
+    /* border: 5px solid green; */
+}
+
+.container-main .domanda{
+   width: 400px;
+   height: 200px;
+   /* border: 5px solid blue; */
+    margin: auto;
+   background-image: url("https://www.quotus.it/wp-content/uploads/2017/06/Quotus-Pagina-quaderno-a-righe.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.container-main .risposta{
+    width: 400px;
+    height: 200px;
+   
+    /* border: 5px solid blue; */
+    margin:auto;
+    background-image: url("https://www.quotus.it/wp-content/uploads/2017/06/Quotus-Pagina-quaderno-a-righe.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+ .container-main .domanda .text-domanda{
+    color:red;
+    margin: auto;
+    margin-top: 10px;
+    padding:20px;
+    text-align: center;
+    font-size:30px;
+    /* border: 5px solid blue; */
+ }
+
+
+ .container-main .text-risposta{
+    color:blue;
+    margin: auto;
+    
+    margin-top: 10px;
+    padding:10px;
+    text-align: center;
+    font-size:17.5px;
+    /* border: 5px solid blue; */
+ }
+
+ 
